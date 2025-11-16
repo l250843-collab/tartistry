@@ -2,7 +2,7 @@
 Tartistry by Asna
 
 A responsive website for ordering artisan tarts.
-## Files
+# Files
 - index.html
 - styles.css
 - logo.jpg
@@ -14,5 +14,6 @@ Features:
 - Order form
 - Nutella and Lemon tarts
 
-Open index.html to view the website.
 
+# How to view
+Open index.html in a browser.
