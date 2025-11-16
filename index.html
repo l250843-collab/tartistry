@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tartistry by Asna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/assetslogo.jpg" alt="Tartistry by Asna" class="logo-img">
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tarts">Tarts</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Fresh Tarts</h1>
+            <p>Nutella & Lemon Tarts</p>
+            <a href="#order" class="btn">Order Now</a>
+        </section>
+
+        <section id="tarts" class="tarts">
+            <h2>Our Tarts</h2>
+            <div class="tart-grid">
+                <div class="tart-card">
+                    <img src="assets/assetsnutella.jpg" alt="Nutella Tart">
+                    <h3>Nutella Tart</h3>
+                    <p>$22.99</p>
+                </div>
+                <div class="tart-card">
+                    <img src="assets/assetslemon.jpg" alt="Lemon Tart">
+                    <h3>Lemon Tart</h3>
+                    <p>$20.99</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="order" class="order">
+            <h2>Order Form</h2>
+            <form>
+                <label>Name: <input type="text" required></label>
+                <label>Email: <input type="email" required></label>
+                
+                <fieldset>
+                    <legend>Choose Tart:</legend>
+                    <label><input type="radio" name="tart" value="nutella"> Nutella</label>
+                    <label><input type="radio" name="tart" value="lemon"> Lemon</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Add-ons:</legend>
+                    <label><input type="checkbox" name="gift"> Gift Box</label>
+                    <label><input type="checkbox" name="message"> Message</label>
+                    <label><input type="checkbox" name="delivery"> Delivery</label>
+                </fieldset>
+
+                <label>Quantity:
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </label>
+
+                <label>Notes: <textarea></textarea></label>
+
+                <button type="submit">Order Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tartistry</p>
+        <svg width="50" height="50">
+            <circle cx="25" cy="25" r="20" fill="#B19CD9"/>
+        </svg>
+    </footer>
+</body>
+</html>
