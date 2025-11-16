@@ -13,7 +13,9 @@ Features:
 - Mobile-friendly design
 - Order form
 - Nutella and Lemon tarts
-
+  
+# Assignment
+This meets HTML+CSS assignment requirements.
 
 # How to view
 Open index.html in a browser.
