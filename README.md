@@ -13,7 +13,8 @@ Features:
 - Mobile-friendly design
 - Order form
 - Nutella and Lemon tarts
-  
+ # Technologies
+HTML5 and CSS3 only. 
 # Assignment
 This meets HTML+CSS assignment requirements.
 
