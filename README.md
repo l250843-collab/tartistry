@@ -17,6 +17,7 @@ Features:
 HTML5 and CSS3 only. 
 # Assignment
 This meets HTML+CSS assignment requirements.
-
+# Responsive
+Works on phone, tablet, and desktop.
 # How to view
 Open index.html in a browser.
